@@ -1,0 +1,90 @@
+crypto/arc4.ko:
+extra/lnxdebugDrv.ko:
+extra/lnxtmvssDrv.ko: extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+net/wireless/8712u/8712u.ko: net/wireless/cfg80211.ko
+extra/lnxplatDrv.ko: extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxtmasDrv.ko: extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_cp950.ko:
+fs/nls/nls_cp865.ko:
+fs/nls/nls_cp852.ko:
+usb/serial/usbserial.ko:
+fs/nls/nls_cp874.ko:
+fs/nls/nls_cp949.ko:
+usb/serial/ftdi_sio.ko: usb/serial/usbserial.ko
+fs/nls/nls_cp932.ko:
+extra/sharp780x.ko:
+fs/nls/nls_cp775.ko:
+extra/lnxcssDrv.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_iso8859-15.ko:
+fs/ext3/ext3.ko: fs/jbd/jbd.ko
+extra/framebuffer.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/pvrsrvkm.ko:
+fs/cifs/cifs.ko:
+fs/nls/nls_cp869.ko:
+net/wireless/8192cu/8192cu.ko:
+extra/typhoon.ko:
+fs/nls/nls_koi8-u.ko:
+extra/control.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/a8296.ko:
+fs/nls/nls_euc-jp.ko:
+lib/crc-itu-t.ko:
+fs/nls/nls_cp861.ko:
+usb/serial/pl2303.ko: usb/serial/usbserial.ko
+extra/dvb_api.ko: extra/avl6211.ko extra/sharp780x.ko extra/av201x.ko dvb/dvb-core.ko extra/dvb_api_prop.ko extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko extra/a8296.ko extra/typhoon.ko
+usb/serial/iuu_phoenix.ko: usb/serial/usbserial.ko
+fs/tntfs/tntfs.ko:
+extra/lnxscsDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_cp737.ko:
+extra/lnxplatnativeDrv.ko:
+fs/nls/nls_iso8859-5.ko:
+fs/nls/nls_cp866.ko:
+extra/frontpanel.ko: extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_cp936.ko:
+fs/nls/nls_ascii.ko:
+fs/jbd/jbd.ko:
+net/wireless/rt2x00/rt2x00usb.ko: net/wireless/rt2x00/rt2x00lib.ko net/mac80211/mac80211.ko net/wireless/cfg80211.ko
+fs/ext4/ext4.ko: fs/jbd2/jbd2.ko
+crypto/aes_generic.ko:
+extra/lnxKKALDrv.ko:
+fs/nls/nls_iso8859-9.ko:
+fs/nls/nls_cp1250.ko:
+extra/avl6211.ko:
+fs/nls/nls_iso8859-14.ko:
+fs/nls/nls_cp850.ko:
+fs/jbd2/jbd2.ko:
+net/wireless/rt2870/rt2870sta.ko: lib/crc-ccitt.ko
+fs/nls/nls_iso8859-2.ko:
+extra/lnxpvrDrv.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+dvb/dvb-core.ko:
+fs/nls/nls_iso8859-7.ko:
+fs/nls/nls_cp857.ko:
+fs/nls/nls_cp863.ko:
+net/wireless/cfg80211.ko:
+extra/pvrnxpdc.ko: extra/pvrsrvkm.ko extra/framebuffer.ko extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_iso8859-6.ko:
+lib/crc-ccitt.ko:
+net/wireless/rt2x00/rt2800usb.ko: net/wireless/rt2x00/rt2800lib.ko net/wireless/rt2x00/rt2x00usb.ko net/wireless/rt2x00/rt2x00lib.ko net/mac80211/mac80211.ko lib/crc-ccitt.ko net/wireless/cfg80211.ko
+extra/av201x.ko:
+fs/nls/nls_cp1255.ko:
+fs/nls/nls_iso8859-13.ko:
+net/wireless/rt2x00/rt2x00lib.ko: net/mac80211/mac80211.ko net/wireless/cfg80211.ko
+fs/nls/nls_koi8-r.ko:
+net/wireless/rt2x00/rt2800lib.ko: net/wireless/rt2x00/rt2x00usb.ko net/wireless/rt2x00/rt2x00lib.ko net/mac80211/mac80211.ko net/wireless/cfg80211.ko
+extra/dvb_api_prop.ko:
+net/wireless/rt2x00/rt2500usb.ko: net/wireless/rt2x00/rt2x00usb.ko net/wireless/rt2x00/rt2x00lib.ko net/mac80211/mac80211.ko net/wireless/cfg80211.ko
+net/wireless/rt2x00/rt73usb.ko: lib/crc-itu-t.ko net/wireless/rt2x00/rt2x00usb.ko net/wireless/rt2x00/rt2x00lib.ko net/mac80211/mac80211.ko net/wireless/cfg80211.ko
+fs/nls/nls_cp860.ko:
+extra/lnxnotifyqDrv.ko: extra/lnxKKALDrv.ko
+fs/nls/nls_koi8-ru.ko:
+fs/nls/nls_iso8859-3.ko:
+fs/nls/nls_cp862.ko:
+extra/pvrvssbc.ko: extra/pvrsrvkm.ko extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+fs/nls/nls_cp1251.ko:
+fs/nls/nls_cp855.ko:
+fs/nls/nls_cp864.ko:
+extra/lnxdvbciDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxtmvssDrvGPL.ko: extra/lnxKKALDrv.ko
+fs/nls/nls_iso8859-4.ko:
+crypto/ecb.ko:
+net/wireless/lib80211.ko:
+net/mac80211/mac80211.ko: net/wireless/cfg80211.ko
