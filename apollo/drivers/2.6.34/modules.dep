@@ -88,3 +88,4 @@ fs/nls/nls_iso8859-4.ko:
 crypto/ecb.ko:
 net/wireless/lib80211.ko:
 net/mac80211/mac80211.ko: net/wireless/cfg80211.ko
+fs/autofs4/autofs4.ko:

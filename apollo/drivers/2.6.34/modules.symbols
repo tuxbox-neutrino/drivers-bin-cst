@@ -207,6 +207,7 @@ alias symbol:dvb_ca_en50221_camchange_irq dvb_core
 alias symbol:cnxt_gpio_set_int_edge lnxplatDrv
 alias symbol:cnxt_kal_tick_set lnxKKALDrv
 alias symbol:rt2800_wait_wpdma_ready rt2800lib
+alias symbol:cnxt_scd_configure_gpio_wakeup_source lnxscsDrv
 alias symbol:audio_dbgfs_oneport_file_write lnxtmasDrv
 alias symbol:cnxt_irrx_get_event_filter lnxplatDrv
 alias symbol:cnxt_tvenc_hdmi_hdcp_get_bstatus lnxtmvssDrv
@@ -290,6 +291,7 @@ alias symbol:video_dbgfs_decoder_stats_file_open lnxtmvssDrv
 alias symbol:cnxt_dmx_get_cr_status lnxcssDrv
 alias symbol:cnxt_irblaster_open lnxplatDrv
 alias symbol:journal_stop jbd
+alias symbol:video_dbgfs_vpp_debugTabDesc_file_release lnxtmvssDrv
 alias symbol:intlog2 dvb_core
 alias symbol:cnxt_smc_get_event_length lnxcssDrv
 alias symbol:cnxt_checkpoint_dump lnxplatDrv
@@ -415,6 +417,7 @@ alias symbol:usb_serial_generic_resume usbserial
 alias symbol:cnxt_audio_get_pts lnxtmasDrv
 alias symbol:cnxt_dma_get_event_filter lnxplatDrv
 alias symbol:cnxt_fusectl_init lnxcssDrv
+alias symbol:cnxt_tvenc_cec_set_params lnxtmvssDrv
 alias symbol:om3917_attach dvb_api_prop
 alias symbol:cnxt_kal_tick_create lnxKKALDrv
 alias symbol:cnxt_scd_clk_get_enable lnxscsDrv
@@ -946,6 +949,7 @@ alias symbol:cnxt_kal_strtok lnxKKALDrv
 alias symbol:cnxt_dmx_cancel_channel_splice lnxcssDrv
 alias symbol:cnxt_scd_change_pm_state lnxscsDrv
 alias symbol:demux_diagnostics_release lnxcssDrv
+alias symbol:video_dbgfs_vpp_debugTabDesc_file_read lnxtmvssDrv
 alias symbol:cnxt_modem_get_caps lnxplatDrv
 alias symbol:cnxt_scd_init lnxscsDrv
 alias symbol:cnxt_kal_timer_stop lnxKKALDrv
@@ -1285,6 +1289,7 @@ alias symbol:cnxt_kal_critsec_begin lnxKKALDrv
 alias symbol:cnxt_kal_strcmp lnxKKALDrv
 alias symbol:cnxt_audio_set_timeouts lnxtmasDrv
 alias symbol:cnxt_image_set_drawing_cliprect lnxtmvssDrv
+alias symbol:cnxt_tvenc_cec_get_attribs lnxtmvssDrv
 alias symbol:audio_dbgfs_oneport_file_read lnxtmasDrv
 alias symbol:cnxt_kal_enable_d_cache lnxKKALDrv
 alias symbol:cnxt_serial_wrapper_write lnxplatnativeDrv
@@ -1405,6 +1410,7 @@ alias symbol:cnxt_tvenc_video_timing_reset lnxtmvssDrv
 alias symbol:cnxt_vsm_dma_status lnxplatDrv
 alias symbol:video_dbgfs_vbi_file_read lnxtmvssDrv
 alias symbol:cnxt_smc_set_event_filter lnxcssDrv
+alias symbol:video_dbgfs_vpp_debugTabDesc_file_open lnxtmvssDrv
 alias symbol:cnxt_dma_stop lnxplatDrv
 alias symbol:journal_init_inode jbd
 alias symbol:cnxt_gpio_get_gpio_interruptno lnxplatnativeDrv
