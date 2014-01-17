@@ -200,6 +200,7 @@ alias symbol:ir_codes_kaiomy_table ir_common
 alias symbol:global_decdesc_to_read lnxtmasDrv
 alias symbol:cnxt_crypto_request_bulk lnxcssDrv
 alias symbol:cnxt_kal_early_initialize lnxKKALDrv
+alias symbol:PVRGetDisplayClassJTable pvrsrvkm
 alias symbol:cnxt_audio_reopen lnxtmasDrv
 alias symbol:cnxt_kal_ipc_int_clear lnxKKALDrv
 alias symbol:cnxt_kal_mem_contig_section_init lnxKKALDrv
@@ -1065,6 +1066,7 @@ alias symbol:cnxt_ipc_raise_interrupt lnxscsDrv
 alias symbol:cnxt_playback_reopen lnxpvrDrv
 alias symbol:cnxt_kal_thread_setaffinity lnxKKALDrv
 alias symbol:cnxt_kal_thread_priority lnxKKALDrv
+alias symbol:PVRGetBufferClassJTable pvrsrvkm
 alias symbol:log_start_commit jbd
 alias symbol:register_cdrom cdrom
 alias symbol:cnxt_dmx_dma_input_get_num_bytes_left lnxcssDrv
