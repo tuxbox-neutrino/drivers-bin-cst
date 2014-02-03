@@ -59,6 +59,7 @@ kernel/drivers/net/wireless/rt2x00/rt2800lib.ko
 kernel/drivers/net/wireless/rt2x00/rt2500usb.ko
 kernel/drivers/net/wireless/rt2x00/rt73usb.ko
 kernel/drivers/net/wireless/rt2x00/rt2800usb.ko
+kernel/drivers/net/tun.ko
 kernel/drivers/cdrom/cdrom.ko
 kernel/drivers/usb/class/cdc-wdm.ko
 kernel/drivers/usb/serial/usbserial.ko

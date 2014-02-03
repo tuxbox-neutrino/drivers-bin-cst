@@ -191,6 +191,7 @@ alias usb:v15C5p0008d*dc*dsc*dp*ic*isc*ip* rt2800usb
 alias usb:v1482p3C09d*dc*dsc*dp*ic*isc*ip* rt2800usb
 alias usb:v07B8p2770d*dc*dsc*dp*ic*isc*ip* rt2800usb
 alias usb:v07B8p2870d*dc*dsc*dp*ic*isc*ip* rt2800usb
+alias char-major-10-200 tun
 alias usb:v*p*d*dc*dsc*dp*ic02isc09ip* cdc_wdm
 alias usb:v0483p3747d*dc*dsc*dp*ic*isc*ip* ftdi_sio
 alias usb:v20B7p0713d*dc*dsc*dp*ic*isc*ip* ftdi_sio
