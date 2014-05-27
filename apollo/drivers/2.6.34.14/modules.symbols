@@ -41,7 +41,6 @@ alias symbol:cnxt_image_set_cursor_invert lnxtmvssDrv
 alias symbol:cnxt_graphics_set_blend_equation_ex lnxtmvssDrv
 alias symbol:crypto_aes_expand_key aes_generic
 alias symbol:dvb_ca_en50221_camready_irq dvb_core
-alias symbol:unregister_cdrom cdrom
 alias symbol:cnxt_iic_get_event_length lnxplatDrv
 alias symbol:ieee80211_wake_queues mac80211
 alias symbol:cnxt_db_init lnxnotifyqDrv
@@ -201,6 +200,7 @@ alias symbol:ir_codes_kaiomy_table ir_common
 alias symbol:global_decdesc_to_read lnxtmasDrv
 alias symbol:cnxt_crypto_request_bulk lnxcssDrv
 alias symbol:cnxt_kal_early_initialize lnxKKALDrv
+alias symbol:PVRGetDisplayClassJTable pvrsrvkm
 alias symbol:cnxt_audio_reopen lnxtmasDrv
 alias symbol:cnxt_kal_ipc_int_clear lnxKKALDrv
 alias symbol:cnxt_kal_mem_contig_section_init lnxKKALDrv
@@ -552,7 +552,6 @@ alias symbol:cnxt_tvenc_term lnxtmvssDrv
 alias symbol:cnxt_buttons_set_reset_parameters lnxplatDrv
 alias symbol:cnxt_tvenc_hdmi_hdcp_repeater_enable lnxtmvssDrv
 alias symbol:cnxt_gpio_int_complete lnxplatDrv
-alias symbol:cdrom_get_media_event cdrom
 alias symbol:ieee80211_tx_status_irqsafe mac80211
 alias symbol:cnxt_gpio_set_input_mode lnxplatnativeDrv
 alias symbol:cnxt_vbi_start lnxtmvssDrv
@@ -746,7 +745,6 @@ alias symbol:cnxt_modem_get_event_length lnxplatDrv
 alias symbol:cfg80211_wireless_stats cfg80211
 alias symbol:__cfg80211_auth_canceled cfg80211
 alias symbol:cnxt_kal_trace_is_module_enabled lnxKKALDrv
-alias symbol:cdrom_media_changed cdrom
 alias symbol:journal_update_format jbd
 alias symbol:cnxt_graphics_copy_blit lnxtmvssDrv
 alias symbol:cnxt_serial_wrapper_read lnxplatnativeDrv
@@ -755,7 +753,6 @@ alias symbol:rt2800_config_intf rt2800lib
 alias symbol:cnxt_video_init lnxtmvssDrv
 alias symbol:cnxt_modem_reopen lnxplatDrv
 alias symbol:ir_codes_terratec_cinergy_xs_table ir_common
-alias symbol:cdrom_release cdrom
 alias symbol:cnxt_gpio_set_input lnxplatDrv
 alias symbol:cnxt_image_redefine_pages lnxtmvssDrv
 alias symbol:cnxt_record_get_event_length lnxpvrDrv
@@ -810,7 +807,6 @@ alias symbol:cnxt_serial_wrapper_flush_buffer lnxplatnativeDrv
 alias symbol:cnxt_cbuf_attach lnxcssDrv
 alias symbol:cnxt_vpp_ttx_config lnxtmvssDrv
 alias symbol:jbd2_journal_force_commit_nested jbd2
-alias symbol:cdrom_mode_sense cdrom
 alias symbol:cnxt_audio_close lnxtmasDrv
 alias symbol:cnxt_queue_create lnxplatDrv
 alias symbol:ieee80211_probereq_get mac80211
@@ -838,7 +834,6 @@ alias symbol:cnxt_dma_get_unit_attributes lnxplatDrv
 alias symbol:cnxt_heap_alloc lnxKKALDrv
 alias symbol:cnxt_kal_clean_d_cache lnxKKALDrv
 alias symbol:cnxt_led_set_state lnxplatDrv
-alias symbol:cdrom_number_of_slots cdrom
 alias symbol:cnxt_ssp_get_host_status lnxcssDrv
 alias symbol:audio_dbgfs_amp_cmd_file_open lnxtmasDrv
 alias symbol:cnxt_dmx_close lnxcssDrv
@@ -847,6 +842,7 @@ alias symbol:cnxt_video_sync_stc lnxtmvssDrv
 alias symbol:cnxt_vpp_get_event_filter lnxtmvssDrv
 alias symbol:cnxt_dvbci_term lnxdvbciDrv
 alias symbol:cnxt_fusectl_blow_fuse lnxcssDrv
+alias symbol:mxl603_attach mxl603
 alias symbol:cnxt_pwm_disable lnxplatDrv
 alias symbol:cnxt_kal_mem_malloc lnxKKALDrv
 alias symbol:journal_ack_err jbd
@@ -872,7 +868,6 @@ alias symbol:cnxt_dvbci_get_unit_caps lnxdvbciDrv
 alias symbol:cnxt_image_set_event_filter lnxtmvssDrv
 alias symbol:dvb_generic_ioctl dvb_core
 alias symbol:audio_dbgfs_app_msg_file_open lnxtmasDrv
-alias symbol:cdrom_mode_select cdrom
 alias symbol:cnxt_version_get_build_time lnxplatDrv
 alias symbol:cnxt_checkpoint_reset lnxplatDrv
 alias symbol:audio_dbgfs_amp_msg_file_read lnxtmasDrv
@@ -1066,14 +1061,15 @@ alias symbol:cnxt_ipc_raise_interrupt lnxscsDrv
 alias symbol:cnxt_playback_reopen lnxpvrDrv
 alias symbol:cnxt_kal_thread_setaffinity lnxKKALDrv
 alias symbol:cnxt_kal_thread_priority lnxKKALDrv
+alias symbol:PVRGetBufferClassJTable pvrsrvkm
 alias symbol:log_start_commit jbd
-alias symbol:register_cdrom cdrom
 alias symbol:cnxt_dmx_dma_input_get_num_bytes_left lnxcssDrv
 alias symbol:cnxt_graphics_set_filter_coefficients lnxtmvssDrv
 alias symbol:cnxt_audio_get_event_filter lnxtmasDrv
 alias symbol:cnxt_kal_memcmp lnxKKALDrv
 alias symbol:journal_check_used_features jbd
 alias symbol:cnxt_vpp_get_plane_enable lnxtmvssDrv
+alias symbol:avlem61_i2c_rpt_read_reg avl6761
 alias symbol:cnxt_graphics_get_color_conversion_coefficients lnxtmvssDrv
 alias symbol:cnxt_tvenc_set_standby lnxtmvssDrv
 alias symbol:dvb_filter_pes2ts dvb_core
@@ -1156,7 +1152,6 @@ alias symbol:ir_codes_msi_tvanywhere_plus_table ir_common
 alias symbol:ieee80211_queue_stopped mac80211
 alias symbol:cnxt_dmx_dma_input_start lnxcssDrv
 alias symbol:cnxt_ssp_async_test lnxcssDrv
-alias symbol:init_cdrom_command cdrom
 alias symbol:cnxt_tvenc_open lnxtmvssDrv
 alias symbol:cnxt_eeprom_async_test lnxplatDrv
 alias symbol:cnxt_dmx_get_event_filter lnxcssDrv
@@ -1300,6 +1295,8 @@ alias symbol:icmpv6_send ipv6
 alias symbol:ir_codes_winfast_usbii_deluxe_table ir_common
 alias symbol:cnxt_scd_clk_set_freq lnxscsDrv
 alias symbol:cnxt_tvenc_hdmi_get_monitor_power lnxtmvssDrv
+alias symbol:avlem61_attach avl6761
+alias symbol:avlem61_i2c_rpt_write_regs avl6761
 alias symbol:ieee80211_rx mac80211
 alias symbol:cnxt_video_user_data_enable lnxtmvssDrv
 alias symbol:cnxt_vpp_set_video_feature lnxtmvssDrv
@@ -1323,7 +1320,6 @@ alias symbol:cnxt_playback_set_speed lnxpvrDrv
 alias symbol:ieee80211_find_sta_by_hw mac80211
 alias symbol:nf_ip6_checksum ipv6
 alias symbol:cnxt_vsm_dma_request lnxplatDrv
-alias symbol:cdrom_get_last_written cdrom
 alias symbol:cnxt_image_term lnxtmvssDrv
 alias symbol:cnxt_image_init lnxtmvssDrv
 alias symbol:cnxt_kal_thread_from_name lnxKKALDrv
@@ -1360,7 +1356,6 @@ alias symbol:ieee80211_data_to_8023 cfg80211
 alias symbol:dvb_dmxdev_init dvb_core
 alias symbol:cnxt_handle_add lnxplatDrv
 alias symbol:ieee80211_amsdu_to_8023s cfg80211
-alias symbol:cdrom_open cdrom
 alias symbol:generic_i2c_read dvb_api_prop
 alias symbol:cnxt_cbuf_added_data lnxcssDrv
 alias symbol:cnxt_vpp_set_blend_path lnxtmvssDrv
@@ -1556,7 +1551,6 @@ alias symbol:cnxt_kal_strcpy lnxKKALDrv
 alias symbol:get_default_font font
 alias symbol:rt2x00mac_tx rt2x00lib
 alias symbol:ir_codes_avertv_303_table ir_common
-alias symbol:cdrom_ioctl cdrom
 alias symbol:cnxt_scd_configure_gmac_wakeup_source lnxscsDrv
 alias symbol:cnxt_video_get_cbuf_level lnxtmvssDrv
 alias symbol:lib80211_crypt_info_free lib80211

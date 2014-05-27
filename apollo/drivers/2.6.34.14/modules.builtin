@@ -47,6 +47,7 @@ kernel/drivers/ata/libata.ko
 kernel/drivers/ata/sata_apollo.ko
 kernel/drivers/base/firmware_class.ko
 kernel/drivers/block/loop.ko
+kernel/drivers/cdrom/cdrom.ko
 kernel/drivers/gcs_dmac/gcs_dmac.ko
 kernel/drivers/gpio/apollo_gpio.ko
 kernel/drivers/hid/hid.ko
@@ -113,6 +114,7 @@ kernel/drivers/rtc/rtc-core.ko
 kernel/drivers/rtc/rtc-apollo.ko
 kernel/drivers/scsi/scsi_mod.ko
 kernel/drivers/scsi/sd_mod.ko
+kernel/drivers/scsi/sr_mod.ko
 kernel/drivers/scsi/sg.ko
 kernel/drivers/serial/serial_core.ko
 kernel/drivers/usb/core/usbcore.ko
