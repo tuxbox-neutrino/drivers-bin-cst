@@ -102,7 +102,7 @@ extra/typhoon.ko:
 extra/avl6761.ko:
 extra/control.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
 extra/a8296.ko:
-extra/dvb_api.ko: extra/avl6211.ko extra/sharp780x.ko extra/av201x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko extra/dvb_api_prop.ko extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko extra/a8296.ko extra/typhoon.ko
+extra/dvb_api.ko: extra/avl6211.ko extra/avl6761.ko extra/sharp780x.ko extra/av201x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko extra/a8296.ko extra/mxl603.ko extra/dvb_api_prop.ko extra/typhoon.ko
 extra/lnxscsDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
 extra/lnxplatnativeDrv.ko:
 extra/frontpanel.ko: extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
