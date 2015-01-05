@@ -1164,3 +1164,4 @@ alias usb:v0BDAp8176d*dc*dsc*dp*ic*isc*ip* 8192cu
 alias usb:v0BDAp8191d*dc*dsc*dp*ic*isc*ip* 8192cu
 alias i2c:cs_frontend_i2c1 dvb_api
 alias i2c:cs_frontend_i2c0 dvb_api
+alias usb:v0BDAp818Bd*dc*dsc*dp*ic*isc*ip* 8192eu
