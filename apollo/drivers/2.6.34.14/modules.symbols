@@ -379,7 +379,6 @@ alias symbol:ieee80211_data_from_8023 cfg80211
 alias symbol:ieee80211_get_buffered_bc mac80211
 alias symbol:ir_codes_pv951_table ir_common
 alias symbol:cnxt_kal_int_register lnxKKALDrv
-alias symbol:cnxt_lnx_drv_version_check lnxnotifyqDrv
 alias symbol:jbd2_journal_extend jbd2
 alias symbol:cnxt_kal_drain_write_buffer lnxKKALDrv
 alias symbol:cnxt_tsroute_set_packet_mode lnxcssDrv
@@ -1247,7 +1246,6 @@ alias symbol:cnxt_irrx_close lnxplatDrv
 alias symbol:video_dbgfs_decoder_config_file_write lnxtmvssDrv
 alias symbol:rt2800_rfkill_poll rt2800lib
 alias symbol:cnxt_smc_init lnxcssDrv
-alias symbol:cnxt_lnx_drv_copy_args lnxnotifyqDrv
 alias symbol:soft_cursor softcursor
 alias symbol:cnxt_kal_ipc_int_assert lnxKKALDrv
 alias symbol:cnxt_graphics_cmd_done lnxtmvssDrv
