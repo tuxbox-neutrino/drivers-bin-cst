@@ -108,34 +108,31 @@ kernel/net/mac80211/mac80211.ko: kernel/net/wireless/cfg80211.ko
 kernel/lib/crc-ccitt.ko:
 kernel/lib/crc-itu-t.ko:
 extra/lnxdebugDrv.ko:
-extra/lnxtmvssDrv.ko: extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxtmvssDrv.ko: extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxKKALDrv.ko
 extra/8712u.ko: kernel/net/wireless/cfg80211.ko
-extra/lnxplatDrv.ko: extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
-extra/lnxtmasDrv.ko: extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxplatDrv.ko: extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
+extra/lnxtmasDrv.ko: extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
 extra/tavor.ko:
 extra/sharp780x.ko:
 extra/rt5370sta.ko:
-extra/lnxcssDrv.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
-extra/framebuffer.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
-extra/pvrsrvkm.ko:
+extra/lnxcssDrv.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
+extra/framebuffer.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxKKALDrv.ko
 extra/8192cu.ko:
 extra/avl6761.ko:
-extra/control.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/control.ko: extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
 extra/a8296.ko:
-extra/dvb_api.ko: extra/blazer.ko extra/avl6211.ko extra/avl6761.ko extra/tavor.ko extra/av201x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko extra/a8296.ko extra/mxl603.ko extra/dvb_api_prop.ko
-extra/lnxscsDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/dvb_api.ko: extra/blazer.ko extra/avl6211.ko extra/avl6761.ko extra/tavor.ko extra/av201x.ko kernel/drivers/media/dvb/dvb-core/dvb-core.ko extra/control.ko extra/a8296.ko extra/mxl603.ko extra/dvb_api_prop.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
+extra/lnxscsDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
 extra/lnxplatnativeDrv.ko:
-extra/frontpanel.ko: extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/frontpanel.ko: extra/control.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
 extra/blazer.ko:
 extra/lnxKKALDrv.ko:
 extra/avl6211.ko:
 extra/mxl603.ko: extra/dvb_api_prop.ko
-extra/lnxpvrDrv.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
-extra/pvrnxpdc.ko: extra/pvrsrvkm.ko extra/framebuffer.ko extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxpvrDrv.ko: extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxKKALDrv.ko
 extra/av201x.ko:
 extra/dvb_api_prop.ko:
 extra/lnxnotifyqDrv.ko: extra/lnxKKALDrv.ko
 extra/8192eu.ko:
-extra/pvrvssbc.ko: extra/pvrsrvkm.ko extra/lnxtmvssDrv.ko extra/lnxtmasDrv.ko extra/lnxcssDrv.ko extra/lnxtmvssDrvGPL.ko extra/lnxscsDrv.ko extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
-extra/lnxdvbciDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxKKALDrv.ko extra/lnxplatnativeDrv.ko
+extra/lnxdvbciDrv.ko: extra/lnxplatDrv.ko extra/lnxnotifyqDrv.ko extra/lnxplatnativeDrv.ko extra/lnxKKALDrv.ko
 extra/lnxtmvssDrvGPL.ko: extra/lnxKKALDrv.ko

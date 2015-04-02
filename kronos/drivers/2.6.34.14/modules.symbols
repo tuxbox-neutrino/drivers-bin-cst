@@ -198,7 +198,6 @@ alias symbol:cnxt_scd_get_die_temp lnxscsDrv
 alias symbol:global_decdesc_to_read lnxtmasDrv
 alias symbol:cnxt_crypto_request_bulk lnxcssDrv
 alias symbol:cnxt_kal_early_initialize lnxKKALDrv
-alias symbol:PVRGetDisplayClassJTable pvrsrvkm
 alias symbol:cnxt_audio_reopen lnxtmasDrv
 alias symbol:cnxt_kal_ipc_int_clear lnxKKALDrv
 alias symbol:cnxt_kal_mem_contig_section_init lnxKKALDrv
@@ -1076,7 +1075,6 @@ alias symbol:cnxt_ipc_raise_interrupt lnxscsDrv
 alias symbol:cnxt_playback_reopen lnxpvrDrv
 alias symbol:cnxt_kal_thread_setaffinity lnxKKALDrv
 alias symbol:cnxt_kal_thread_priority lnxKKALDrv
-alias symbol:PVRGetBufferClassJTable pvrsrvkm
 alias symbol:log_start_commit jbd
 alias symbol:cnxt_dmx_dma_input_get_num_bytes_left lnxcssDrv
 alias symbol:cnxt_graphics_set_filter_coefficients lnxtmvssDrv
@@ -1640,6 +1638,7 @@ alias symbol:cnxt_buttons_enable_reset lnxplatDrv
 alias symbol:video_dbgfs_vpp_file_release lnxtmvssDrv
 alias symbol:rt2x00mac_add_interface rt2x00lib
 alias symbol:FFillBytes lnxKKALDrv
+alias symbol:uPcmDescrIntfBaseAddr lnxtmasDrv
 alias symbol:cfg80211_wext_siwmlme cfg80211
 alias symbol:cnxt_kal_sem_create lnxKKALDrv
 alias symbol:cnxt_dmx_set_spillover lnxcssDrv
