@@ -194,6 +194,13 @@ kernel/drivers/media/rc/ir-mce_kbd-decoder.ko
 kernel/drivers/media/rc/gpio-ir-recv.ko
 kernel/drivers/media/dvb-core/dvb-core.ko
 kernel/drivers/staging/rtl8712/r8712u.ko
+kernel/sound/soundcore.ko
+kernel/sound/core/oss/snd-mixer-oss.ko
+kernel/sound/core/oss/snd-pcm-oss.ko
+kernel/sound/core/snd.ko
+kernel/sound/core/snd-timer.ko
+kernel/sound/core/snd-pcm.ko
+kernel/sound/core/snd-page-alloc.ko
 kernel/arch/arm/oprofile/oprofile.ko
 kernel/net/netfilter/nfnetlink.ko
 kernel/net/netfilter/nfnetlink_log.ko

@@ -84,6 +84,7 @@ kernel/drivers/usb/host/ehci-platform.ko
 kernel/drivers/usb/serial/usbserial.ko
 kernel/drivers/usb/storage/usb-storage.ko
 kernel/drivers/video/fb.ko
+kernel/sound/soundcore.ko
 kernel/net/dns_resolver/dns_resolver.ko
 kernel/net/ipv4/xfrm4_mode_beet.ko
 kernel/net/ipv4/inet_lro.ko

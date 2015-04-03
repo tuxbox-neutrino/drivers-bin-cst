@@ -1465,6 +1465,13 @@ alias usb:v0BDAp8713d*dc*dsc*dp*ic*isc*ip*in* r8712u
 alias usb:v0BDAp8712d*dc*dsc*dp*ic*isc*ip*in* r8712u
 alias usb:v0BDAp8173d*dc*dsc*dp*ic*isc*ip*in* r8712u
 alias usb:v0BDAp8171d*dc*dsc*dp*ic*isc*ip*in* r8712u
+alias char-major-14-* soundcore
+alias sound-service-?-0 snd_mixer_oss
+alias sound-service-?-12 snd_pcm_oss
+alias sound-service-?-3 snd_pcm_oss
+alias char-major-116-* snd
+alias devname:snd/timer snd_timer
+alias char-major-116-33 snd_timer
 alias fs-oprofilefs oprofile
 alias net-pf-16-proto-12 nfnetlink
 alias nfnetlink-subsys-4 nfnetlink_log
