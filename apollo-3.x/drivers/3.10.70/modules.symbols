@@ -309,6 +309,7 @@ alias symbol:cnxt_kal_internal_hw_sems_init lnxKKALDrv
 alias symbol:dvb_dmxdev_release dvb_core
 alias symbol:cnxt_record_get_config lnxpvrDrv
 alias symbol:cnxt_tvenc_hdmi_set_hdcp lnxtmvssDrv
+alias symbol:cs_clk_get_source control
 alias symbol:snd_pcm_lib_preallocate_pages snd_pcm
 alias symbol:cnxt_vbi_get_unit_attributes lnxtmvssDrv
 alias symbol:snd_pcm_hw_rule_noresample snd_pcm
@@ -386,6 +387,7 @@ alias symbol:snd_timer_stop snd_timer
 alias symbol:fuse_do_open fuse
 alias symbol:nf_defrag_ipv4_enable nf_defrag_ipv4
 alias symbol:cnxt_scd_configure_uart_wakeup_source lnxscsDrv
+alias symbol:cs_clk_set_freq control
 alias symbol:rtl_cam_reset_all_entry rtlwifi
 alias symbol:rtl_evm_db_to_percentage rtlwifi
 alias symbol:cnxt_tvenc_get_output_mode lnxtmvssDrv
@@ -523,6 +525,7 @@ alias symbol:cnxt_iic_term lnxplatDrv
 alias symbol:cnxt_smc_close lnxcssDrv
 alias symbol:video_dbgfs_version_file_open lnxtmvssDrv
 alias symbol:cnxt_graphics_remove_font lnxtmvssDrv
+alias symbol:cs_pll_get_freq control
 alias symbol:fscache_io_error fscache
 alias symbol:nf_ct_dying_timeout nf_conntrack
 alias symbol:rc_keydown_notimeout rc_core
@@ -549,6 +552,7 @@ alias symbol:cnxt_vpp_rgn_get_scaling_filter_coef lnxtmvssDrv
 alias symbol:rtl92c_phy_sw_chnl rtl8192c_common
 alias symbol:cnxt_cbuf_term lnxcssDrv
 alias symbol:ip_tunnel_init ip_tunnel
+alias symbol:dvb_ringbuffer_pkt_read dvb_core
 alias symbol:nf_nat_setup_info nf_nat
 alias symbol:cnxt_cbuf_calc_relative_address lnxcssDrv
 alias symbol:cnxt_kal_modify_mem_access_permission lnxKKALDrv
@@ -559,6 +563,7 @@ alias symbol:cnxt_kal_mem_pool_create lnxKKALDrv
 alias symbol:cnxt_kal_critsec_end lnxKKALDrv
 alias symbol:ip_tunnel_ioctl ip_tunnel
 alias symbol:cnxt_dmx_open_filter lnxcssDrv
+alias symbol:dvb_ringbuffer_pkt_write dvb_core
 alias symbol:unregister_sound_mixer soundcore
 alias symbol:cnxt_db_release lnxnotifyqDrv
 alias symbol:a8296_attach a8296
@@ -838,6 +843,7 @@ alias symbol:cnxt_smc_get_event_filter lnxcssDrv
 alias symbol:ip_tunnel_delete_net ip_tunnel
 alias symbol:snd_info_get_line snd
 alias symbol:cnxt_kal_qu_create lnxKKALDrv
+alias symbol:cs_pll_set_freq control
 alias symbol:cnxt_record_get_components lnxpvrDrv
 alias symbol:cnxt_scd_open lnxscsDrv
 alias symbol:cnxt_pcm_disconnect lnxtmasDrv
@@ -1053,6 +1059,7 @@ alias symbol:cnxt_image_get_pixel_settings lnxtmvssDrv
 alias symbol:cnxt_smc_warm_reset_card lnxcssDrv
 alias symbol:nf_ct_l4proto_put nf_conntrack
 alias symbol:cnxt_tvenc_reopen lnxtmvssDrv
+alias symbol:dvb_ringbuffer_pkt_dispose dvb_core
 alias symbol:inet6_csk_search_req ipv6
 alias symbol:journal_create jbd
 alias symbol:cnxt_crypto_setup_rc4 lnxcssDrv
@@ -1222,6 +1229,7 @@ alias symbol:dvb_unregister_device dvb_core
 alias symbol:generic_i2c_write dvb_api_prop
 alias symbol:cnxt_dmx_get_pcr_int_timer lnxcssDrv
 alias symbol:cnxt_dmx_channel_close lnxcssDrv
+alias symbol:cs_clk_get_freq control
 alias symbol:rt2x00lib_pretbtt rt2x00lib
 alias symbol:rt2x00lib_txdone rt2x00lib
 alias symbol:snd_timer_global_register snd_timer
@@ -1290,6 +1298,7 @@ alias symbol:snd_ctl_add snd
 alias symbol:cnxt_graphics_draw_polyline lnxtmvssDrv
 alias symbol:ip6_frag_init ipv6
 alias symbol:fscache_withdraw_cache fscache
+alias symbol:cnxt_gpio_set_pin_mode lnxplatDrv
 alias symbol:cnxt_video_encode_frame lnxtmvssDrv
 alias symbol:cnxt_scd_set_unit_param lnxscsDrv
 alias symbol:jbd2_journal_clear_features jbd2
@@ -1313,6 +1322,7 @@ alias symbol:xt_check_match x_tables
 alias symbol:cnxt_graphics_init lnxtmvssDrv
 alias symbol:video_dbgfs_memory_file_open lnxtmvssDrv
 alias symbol:cnxt_pwm_reload lnxplatDrv
+alias symbol:dvb_usercopy dvb_core
 alias symbol:rt2x00queue_flush_queue rt2x00lib
 alias symbol:snd_info_create_card_entry snd
 alias symbol:cnxt_tvenc_cgms_enable lnxtmvssDrv
@@ -1357,6 +1367,7 @@ alias symbol:rc_unregister_device rc_core
 alias symbol:cnxt_audio_set_unit_params lnxtmasDrv
 alias symbol:ipv6_opt_accepted ipv6
 alias symbol:cnxt_dmx_get_unit_params lnxcssDrv
+alias symbol:dvb_ringbuffer_pkt_next dvb_core
 alias symbol:rt2x00queue_get_entry rt2x00lib
 alias symbol:cnxt_playback_replace_components lnxpvrDrv
 alias symbol:cnxt_kal_kva_from_uva lnxKKALDrv
@@ -1479,6 +1490,7 @@ alias symbol:audio_dbgfs_app_ram_file_open lnxtmasDrv
 alias symbol:cnxt_image_get_drawing_cliprect lnxtmvssDrv
 alias symbol:ip6t_do_table ip6_tables
 alias symbol:_rtl92c_phy_txpwr_idx_to_dbm rtl8192c_common
+alias symbol:cs_clock_init control
 alias symbol:inet6_unregister_protosw ipv6
 alias symbol:dvb_ca_en50221_release dvb_core
 alias symbol:rt2800_get_tkip_seq rt2800lib
@@ -1662,6 +1674,7 @@ alias symbol:cnxt_pcm_start lnxtmasDrv
 alias symbol:snd_pcm_hw_param_first snd_pcm
 alias symbol:journal_unlock_updates jbd
 alias symbol:crc16_table crc16
+alias symbol:port2clk control
 alias symbol:cnxt_kal_int_setaffinity lnxKKALDrv
 alias symbol:cnxt_tvenc_hdmi_set_standby lnxtmvssDrv
 alias symbol:snd_ctl_enum_info snd
@@ -1675,6 +1688,7 @@ alias symbol:cnxt_ipc_get_event_length lnxscsDrv
 alias symbol:cnxt_get_key_identifier lnxnotifyqDrv
 alias symbol:cnxt_tvenc_set_hd_colorspace lnxtmvssDrv
 alias symbol:cnxt_vpp_detach lnxtmvssDrv
+alias symbol:dvb_ringbuffer_pkt_read_user dvb_core
 alias symbol:nf_ct_l4proto_register nf_conntrack
 alias symbol:cnxt_gpio_int_disable lnxplatDrv
 alias symbol:ip_tunnel_dellink ip_tunnel
@@ -1714,6 +1728,7 @@ alias symbol:cnxt_playback_close lnxpvrDrv
 alias symbol:rtl_ps_disable_nic rtlwifi
 alias symbol:cnxt_video_prepare_for_format lnxtmvssDrv
 alias symbol:cnxt_buttons_term lnxplatDrv
+alias symbol:cs_clk_set_source control
 alias symbol:rtl_usb_disconnect rtlwifi
 alias symbol:snd_ctl_boolean_mono_info snd
 alias symbol:cnxt_kal_reboot_IRD lnxKKALDrv
@@ -1789,6 +1804,7 @@ alias symbol:snd_pcm_stop snd_pcm
 alias symbol:cnxt_dvbci_disable_ts lnxdvbciDrv
 alias symbol:journal_check_available_features jbd
 alias symbol:nf_conntrack_l4proto_tcp6 nf_conntrack
+alias symbol:cs_clock_exit control
 alias symbol:journal_force_commit_nested jbd
 alias symbol:rt2x00mac_sta_remove rt2x00lib
 alias symbol:cnxt_tvenc_get_picture_control lnxtmvssDrv

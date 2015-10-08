@@ -477,6 +477,7 @@ alias usb:v7392p7711d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v7392p4085d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v0FE9pB307d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v07FAp7712d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
+alias usb:v2001p3C20d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v2001p3C1Bd*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v07D1p3C17d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
 alias usb:v07D1p3C16d*dc*dsc*dp*ic*isc*ip*in* rt2800usb
